@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minha Agenda Web</title>
-    <link rel="stylesheet" href="../STYLE/style.css">
+    <link rel="stylesheet" href="STYLE/style.css">
 </head>
 <body>
 
@@ -15,6 +15,7 @@
             </div>
             <div class="topbar-title">Agenda</div>
             <div class="topbar-actions">
+                <a class="icon-btn" href="tela_login.html" aria-label="Voltar à tela inicial">←</a>
                 <button type="button" id="btn-config" class="icon-btn" aria-label="Abrir configurações">⚙️</button>
             </div>
         </header>
@@ -66,7 +67,7 @@
             <div class="input-row">
                 <div class="input-group">
                     <label for="data">Data:</label>
-                    <input type="text" id="data" required placeholder="AAAA-MM-DD" inputmode="numeric" maxlength="10" pattern="\it d{4}-\d{2}-\d{2}">
+                    <input type="text" id="data" required placeholder="AAAA-MM-DD" inputmode="numeric" maxlength="10" pattern="\d{4}-\d{2}-\d{2}">
                 </div>
                 <div class="input-group">
                     <label for="hora">Hora:</label>
@@ -110,6 +111,6 @@
         </div>
     </div>
 
-    <script src="../java/comander.js"></script>
+    <script src="java/comander.js"></script>
 </body>
 </html>

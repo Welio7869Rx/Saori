@@ -226,6 +226,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     renderListaCompromissos();
     verificarAlarmesPendentes();
+    setInterval(verificarAlarmesPendentes, 30000);
 });
 
 function obterConfiguracoes() {
